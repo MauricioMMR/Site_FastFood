@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #3D2D5F;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 3fr 6fr 3fr 3fr 3fr 3fr 1fr;
+    grid-template-rows: 100%;
+    height: 10vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#Cadastro {
+    grid-column-start: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo>img {
+    height: 200px;
+
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#Contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#Pedido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#QS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#Procurar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#Sair {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#Sair:hover {
+    cursor: pointer;
+    color: red;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#Procurar:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#QS:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#inicio:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#Pedido:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#Contato:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#login:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#Cadastro:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+
+#Contato > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#inicio > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#Procurar > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#Pedido > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#Cadastro > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#QS>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+#login > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.container-banners {
+    width: 100%;
+}
+
+.content {
+    width: 900px;
+    height: 450px;
+    margin-top: 9vh;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 8%;
+}
+
+.banner {
+    width: 100%;
+    height: 80%;
+    margin-top: 2%;
+    padding: 10px;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 0.4px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.barra {
+    height: 10px;
+    width: 10px;
+    border: solid 1px #ffffff;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.barra:hover {
+    background-color: #ffffff;
+}
+
+input {
+    display: none;
+    margin-top: 10%;
+}
+
+.slides {
+    display: flex;
+    width: 400%;
+    height: 100%;
+
+}
+
+.slide {
+    width: 25%;
+    transition: 0.6s;
+
+}
+
+#slide1:checked~.s1 {
+    margin-left: 0;
+}
+
+#slide2:checked~.s1 {
+    margin-left: -25%;
+}
+
+#slide3:checked~.s1 {
+    margin-left: -50%;
+}
+
+#Compartimentos {
+
+    display: grid;
+    grid-template-columns: 4fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 4fr;
+    grid-template-rows: 100%;
+    height: 9vh;
+    margin-top: 40%;
+}
+
+#ofertas {
+    grid-column-start: 2;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#Cupons {
+    grid-column-start: 4;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+
+#Combos {
+    grid-column-start: 6;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+#adicionais {
+    grid-column-start: 8;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#nomes {
+    display: grid;
+    grid-template-columns: 4fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 4fr;
+    grid-template-rows: 100%;
+    height: 10vh;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 4px;
+}
+
+#of {
+    grid-column-start: 2;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#Cp {
+    grid-column-start: 4;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#Co {
+    grid-column-start: 6;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#Ad {
+    grid-column-start: 8;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#ofertas>img {
+
+    height: 50px;
+    width: 50px;
+}
+
+#Cupons>img {
+    height: 50px;
+    width: 50px;
+}
+
+
+#Combos>img {
+    height: 70px;
+    width: 70px;
+}
+
+#adicionais>img {
+    height: 50px;
+    width: 50px;
+}
+
+#ofertas:hover {
+    background-color: #00FF88;
+    scale: 1.1;
+    border: solid 1px;
+    transition: 2s;
+}
+
+#Cupons:hover {
+    background-color: #00FF88;
+    scale: 1.1;
+    border: solid 1px;
+    transition: 2s;
+}
+
+#Combos:hover {
+    background-color: #00FF88;
+    scale: 1.1;
+    border: solid 1px;
+    transition: 2s;
+}
+
+#adicionais:hover {
+    background-color: #00FF88;
+    scale: 1.1;
+    border: solid 1px;
+    transition: 2s;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 4fr 3fr 3fr 3fr 6fr 3fr 6fr 4fr;
+    grid-template-rows: 100%;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+#logof {
+    grid-column-start: 2;
+}
+
+#logof>img {
+
+    height: 200px;
+    width: 200px;
+}
+
+#paginas {
+    color: #ffffff;
+    margin-top: 45px;
+    grid-column-start: 4;
+
+}
+
+.names {
+    list-style: none;
+}
+
+#pg {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#cad {
+    text-decoration: underline;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#log {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#cont {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+
+#pg2 {
+    color: #ffffff;
+    grid-column-start: 5;
+    margin-top: 45px;
+}
+
+#pg3 {
+    color: #ffffff;
+    grid-column-start: 6;
+    margin-top: 45px;
+}
+
+.sobre {
+    list-style: none;
+
+}
+
+.FAQ {
+    list-style: none;
+
+}
+
+
+#fa {
+    font-weight: bold;
+}
+
+#em {
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+#tel {
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+#cont2 {
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+#sempresa {
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+    margin-top: 45px;
+
+}
+
+
+#insta{
+    text-align: center;
+}
+
+button{
+    height: 30%;
+    width: 70%;
+    border-radius: 24px;
+    font-weight: bold;
+    background-color: #00FF88;
+    grid-column-start: 7;
+    border: none;
+}
+
+#botao{
+    text-align: center;
+    margin-top: 10%;
+    height: 60%;
+
+}

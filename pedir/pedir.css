@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #3D2D5F;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 3fr 6fr 3fr 3fr 3fr 3fr 1fr;
+    grid-template-rows: 100%;
+    height: 10vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#Cadastro {
+    grid-column-start: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo>img {
+    height: 200px;
+
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#Contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#Pedido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#QS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#Procurar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#Sair {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#Sair:hover {
+    cursor: pointer;
+    color: red;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#Procurar:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#QS:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#inicio:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#Pedido:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#Contato:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#login:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#Cadastro:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+
+#Contato>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#inicio>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#Procurar>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#Pedido>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#Cadastro > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#QS>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+#login > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 130px;
+    border-radius: 30px;
+    background-color: #5E4489;
+}
+
+
+h3 {
+    color: #00FF88;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+input{
+    margin-bottom: 20px;
+    border-radius: 15px;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    width: 250px;
+}
+
+#enviar{
+    margin-bottom: 70px;
+    border-radius: 24px;
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: #00FF88;
+    font-weight: bold;
+    border: none;
+}
+
+
+
+p{
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: 4fr 3fr 3fr 3fr 6fr 3fr 6fr 4fr;
+    grid-template-rows: 100%;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    margin-top: 48%;
+}
+
+#logof {
+    grid-column-start: 2;
+}
+
+#logof>img {
+
+    height: 200px;
+    width: 200px;
+}
+
+#paginas {
+    color: #ffffff;
+    margin-top: 45px;
+    grid-column-start: 4;
+
+}
+
+.names {
+    list-style: none;
+}
+
+#pg {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#cad {
+    text-decoration: underline;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#log {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#cont {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+
+#pg2 {
+    color: #ffffff;
+    grid-column-start: 5;
+    margin-top: 45px;
+}
+
+#pg3 {
+    color: #ffffff;
+    grid-column-start: 6;
+    margin-top: 45px;
+}
+
+.sobre {
+    list-style: none;
+
+}
+
+.FAQ {
+    list-style: none;
+
+}
+
+
+#fa {
+    font-weight: bold;
+}
+
+#em {
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+#tel {
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+#cont2 {
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+#sempresa {
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+    margin-top: 45px;
+
+}
+
+
+#insta {
+    text-align: center;
+}
+
+#btncontato {
+    height: 30%;
+    width: 70%;
+    border-radius: 24px;
+    font-weight: bold;
+    background-color: #00FF88;
+    border: none;
+}
+
+#botao {
+    text-align: center;
+    margin-top: 10%;
+    height: 60%;
+
+}
+
+.btnp>img {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 30px;
+}

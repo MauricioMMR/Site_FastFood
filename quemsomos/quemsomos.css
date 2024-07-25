@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #3D2D5F;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 3fr 6fr 3fr 3fr 3fr 3fr 1fr;
+    grid-template-rows: 100%;
+    height: 10vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#Cadastro {
+    grid-column-start: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo>img {
+    height: 200px;
+
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#Contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#Pedido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#QS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#Procurar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#Sair {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#Sair:hover {
+    cursor: pointer;
+    color: red;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#Procurar:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#QS:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#inicio:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#Pedido:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#Contato:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#login:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#Cadastro:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+
+#Contato>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#inicio>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#Procurar>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#Pedido>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#login>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#Cadastro>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#quemsomos {
+
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 3fr 6fr 3fr 3fr 3fr 3fr 1fr;
+    grid-template-rows: 100%;
+    height: 10vh;
+    margin-top: 10%;
+    
+}
+
+.titulo{
+    grid-column-start: 6;
+    text-align: center;
+    color: #00FF88;
+    text-shadow: #946ce9 -3px 3px 1px;
+
+
+}
+
+#textoq{
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 6fr 3fr 3fr 3fr 3fr 1fr;
+    grid-template-rows: 100%;
+    height: 50vh; 
+}
+
+#textoq > p{
+    grid-column-start: 5;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#textoq > img{
+    height: 350px;
+    grid-column-start: 6;
+    margin-bottom: 150px;
+}
+
+
+footer {
+    display: grid;
+    grid-template-columns: 4fr 3fr 3fr 3fr 6fr 3fr 6fr 4fr;
+    grid-template-rows: 100%;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    margin-top: 15%;
+}
+
+#logof {
+    grid-column-start: 2;
+}
+
+#logof>img {
+
+    height: 200px;
+    width: 200px;
+}
+
+#paginas {
+    color: #ffffff;
+    margin-top: 45px;
+    grid-column-start: 4;
+
+}
+
+.names {
+    list-style: none;
+}
+
+#pg {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#cad {
+    text-decoration: underline;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#log {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#cont {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+
+#pg2 {
+    color: #ffffff;
+    grid-column-start: 5;
+    margin-top: 45px;
+}
+
+#pg3 {
+    color: #ffffff;
+    grid-column-start: 6;
+    margin-top: 45px;
+}
+
+.sobre {
+    list-style: none;
+
+}
+
+.FAQ {
+    list-style: none;
+
+}
+
+
+#fa {
+    font-weight: bold;
+}
+
+#em {
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+#tel {
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+#cont2 {
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+#sempresa {
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+    margin-top: 45px;
+
+}
+
+
+#insta {
+    text-align: center;
+}
+
+#btncontato {
+    height: 30%;
+    width: 70%;
+    border-radius: 24px;
+    font-weight: bold;
+    background-color: #00FF88;
+    border: none;
+}
+
+#botao {
+    text-align: center;
+    height: 60%;
+    margin-top: 10%;
+
+}
+
